@@ -11,7 +11,7 @@ const databasePath = path.join(__dirname, './database.db');
 const DATABASE_URL = process.env.DATABASE_URL === undefined ? databasePath : process.env.DATABASE_URL;
 
 module.exports = {
-    session: process.env.SESSION_ID || 'FLASH-MD-WA-BOT;;;=>',
+    session: process.env.SESSION_ID || 'FLASH-MD=>rchWWBhD#xuYrVzwCoKfnd3MhCCPWquoUUeg6O8q5ufKKFKoGI1c',
     PREFIXES: (process.env.PREFIX || '').split(',').map(prefix => prefix.trim()).filter(Boolean),
     OWNER_NAME: process.env.OWNER_NAME || "France King",
     OWNER_NUMBER: process.env.OWNER_NUMBER || "254105915061",
